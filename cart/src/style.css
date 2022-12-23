@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,500&display=swap");
+
+.cart {
+  width: 35%;
+  border: 3px solid orange;
+  /* aspect-ratio: 0.8; */
+}
+
+.cartItem {
+  display: flex;
+  border: 3px solid orange;
+  width: 80%;
+  margin: 1rem auto;
+  padding: 1rem;
+  justify-content: space-between;
+  color: red;
+  font-family: Chivo Mono;
+  font-weight: 400;
+}
+
+.btn {
+  border: none;
+  background: none;
+  font-size: 1rem;
+  color: red;
+}
+
+.amount {
+  color: red;
+  text-align: center;
+  font-family: Chivo Mono;
+  font-size: 1.1rem;
+  margin: 2rem 0;
+}
